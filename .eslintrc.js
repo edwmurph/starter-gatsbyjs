@@ -28,8 +28,6 @@ module.exports = {
     'object-curly-newline': [0],
 
     // spacing
-    'indent': ['error', 'tab'],
-    'no-tabs': ['off'],
     'object-curly-spacing': ['error', 'always'],
     'no-trailing-spaces': ['error'],
     'no-irregular-whitespace': ['error'],
