@@ -1,6 +1,6 @@
 {
-  "name": "gatsbyjs",
-  "description": "My minimal starter for a Gatsby project",
+  "name": "starter-gatsbyjs",
+  "description": "Minimal starter for a GatsbyJS project",
   "version": "0.1.0",
   "scripts": {
     "build": "gatsby build",
@@ -23,6 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/edwmurph/gatsbyjs"
+    "url": "https://github.com/edwmurph/starter-gatsbyjs"
   }
 }
