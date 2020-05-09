@@ -1,6 +1,13 @@
 module.exports = {
   parser: 'babel-eslint',
 
+  parserOptions: {
+    ecmaVersion: 2019,
+    ecmaFeatures: {
+      impliedStrict: true
+    },
+  },
+
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
