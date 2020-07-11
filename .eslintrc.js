@@ -1,51 +1,6 @@
 module.exports = {
-  parser: 'babel-eslint',
-
-  parserOptions: {
-    ecmaVersion: 2019,
-    ecmaFeatures: {
-      impliedStrict: true
-    },
-  },
-
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'airbnb-base',
-  ],
-
-  plugins: [
-    'prefer-arrow',
-  ],
-
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-
-  env: {
-    node: true,
-    es6: true,
-    browser: true,
-  },
-
-  rules: {
-    'no-await-in-loop': ['off'],
-    'object-curly-newline': [0],
-
-    // spacing
-    'object-curly-spacing': ['error', 'always'],
-    'no-trailing-spaces': ['error'],
-    'no-irregular-whitespace': ['error'],
-
-    'prefer-arrow/prefer-arrow-functions': [
-      'error',
-      {
-        disallowPrototype: true,
-        singleReturnOnly: false,
-        classPropertiesAllowed: false,
-      }
-    ]
-  },
+    '@edwmurph/eslint-config',
+    '@edwmurph/eslint-config/react',
+  ]
 };
