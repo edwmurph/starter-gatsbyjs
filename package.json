@@ -10,12 +10,12 @@
     "clean": "rm -rf .cache && rm -rf public"
   },
   "dependencies": {
-    "gatsby": "2.20.25",
+    "gatsby": "2.24.57",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@edwmurph/eslint-config": "0.0.1"
+    "@edwmurph/eslint-config": "0.0.6"
   },
   "repository": {
     "type": "git",
