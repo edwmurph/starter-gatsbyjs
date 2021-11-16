@@ -15,7 +15,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@edwmurph/eslint-config": "0.0.6"
+    "@edwmurph/eslint-config": "1.0.0"
   },
   "repository": {
     "type": "git",
