@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
   extends: [
-    '@edwmurph/eslint-config/gatsby',
+    '@edwmurph/eslint-config/gatsby'
   ]
 };
